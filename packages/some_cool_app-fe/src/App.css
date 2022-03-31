@@ -1,0 +1,38 @@
+nav {
+  background-color: lightskyblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #222;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-items li {
+  margin-left: 0.75rem;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #222;
+}
+
+.nav-items li a:hover {
+  color: #fafafa;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fafafa;
+}
