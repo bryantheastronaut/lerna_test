@@ -1,5 +1,5 @@
-import { Link, Route, Routes } from "react-router-dom";
-import "./App.css";
+import { Link, Route, Routes } from 'react-router-dom'
+import './App.css'
 
 function Navi() {
   return (
@@ -17,7 +17,7 @@ function Navi() {
         </li>
       </ul>
     </nav>
-  );
+  )
 }
 
 export function App() {
@@ -33,5 +33,5 @@ export function App() {
         />
       </Routes>
     </>
-  );
+  )
 }

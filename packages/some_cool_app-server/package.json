@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "test": "test",
-    "compile": "tsc"
+    "test": "jest",
+    "compile": "tsc",
+    "start": "rm -rf dist && tsc && node dist/some_cool_app-server/src/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,8 +16,12 @@
     "koa-logger": "^3.2.1"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@types/koa": "^2.13.4",
     "@types/koa__router": "^8.0.11",
-    "@types/koa-logger": "^3.1.2"
+    "@types/koa-logger": "^3.1.2",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.4"
   }
 }
